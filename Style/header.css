@@ -1,0 +1,39 @@
+/* Header section begin! */
+.toggler a {
+  color: #f17228;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: all 0.3s ease 0s;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #e1b096;
+}
+.headerlogo img {
+  width: 25px;
+  height: 25px;
+}
+.headerlogo {
+  text-align: center;
+  align-items: center;
+}
+.headerlogo a {
+  padding-left: 3%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #f17228;
+  text-decoration: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.headerlogin {
+  align-items: center;
+  justify-content: space-around;
+}
+@media (min-width: 760px) {
+  .logo {
+    order: -1;
+  }
+}
+/* Header section ends here! */
